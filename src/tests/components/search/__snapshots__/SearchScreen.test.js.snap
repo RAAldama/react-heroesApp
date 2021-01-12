@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests on <SearchScreen /> should render correctly with default values 1`] = `
+<div>
+  <h1>
+    Search!
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Busqueda
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          className="form-control"
+          name="hero"
+          onChange={[Function]}
+          placeholder0="Search a hero!"
+          type="text"
+          value=""
+        />
+        <div
+          className="d-grid"
+        >
+          <button
+            className="btn btn-outline-info mt-1 btn-block"
+            type="submit"
+          >
+            Agregar
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Heroes encontrados
+      </h4>
+      <hr />
+      <div
+        className="alert alert-info"
+      >
+        ¡Busca tu heroe favorito!
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`tests on <SearchScreen /> should show superman and the input with the query 1`] = `
+<div>
+  <h1>
+    Search!
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Busqueda
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          className="form-control"
+          name="hero"
+          onChange={[Function]}
+          placeholder0="Search a hero!"
+          type="text"
+          value="superman"
+        />
+        <div
+          className="d-grid"
+        >
+          <button
+            className="btn btn-outline-info mt-1 btn-block"
+            type="submit"
+          >
+            Agregar
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Heroes encontrados
+      </h4>
+      <hr />
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "maxWidth": 540,
+            }
+          }
+        >
+          <img
+            alt="Superman"
+            className="card-img-top"
+            src="./assets/dc-superman.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Superman
+            </h5>
+            <p
+              className="card-text"
+            >
+              Kal-El
+            </p>
+            <a
+              href="/hero/dc-superman"
+              onClick={[Function]}
+            >
+              Más información del héroe...
+            </a>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <small
+              className="text-muted"
+            >
+              Action Comics #1
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

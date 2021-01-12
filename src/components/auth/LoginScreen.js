@@ -5,13 +5,14 @@ import { types } from '../../types/types';
 const LoginScreen = ({ history }) => {
 
     const {dispatch} = useContext(AuthContext);
-    const lastPage = localStorage.getItem('lastPage') || '/';
 
     const loggedUser = {
         name: 'Albus'
     }
 
     const handleLogin = () => {
+        const lastPage = localStorage.getItem('lastPage') || '/';
+        
         dispatch(
             {type: types.login, payload: loggedUser }
         )
